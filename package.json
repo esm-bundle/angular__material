@@ -1,17 +1,196 @@
 {
-  "name": "@esm-bundle/autopublish-template",
-  "version": "20.0.20",
+  "name": "@esm-bundle/angular__material",
+  "version": "0.0.0-unpublished.0",
   "description": "Repo to test esm-bundle's automatic publishing",
-  "main": "index.js",
-  "module": "esm/index.js",
   "type": "module",
+  "exports": {
+    ".": {
+      "es2015": "./es2015/ivy/angular-material.js",
+      "es2020": "./es2020/ivy/angular-material.js",
+      "default": "./es2020/ivy/angular-material.js"
+    },
+    "./autocomplete": {
+      "es2015": "./es2015/ivy/angular-autocomplete.js",
+      "es2020": "./es2020/ivy/angular-autocomplete.js",
+      "default": "./es2020/ivy/angular-autocomplete.js"
+    },
+    "./badge": {
+      "es2015": "./es2015/ivy/angular-badge.js",
+      "es2020": "./es2020/ivy/angular-badge.js",
+      "default": "./es2020/ivy/angular-badge.js"
+    },
+    "./bottom-sheet": {
+      "es2015": "./es2015/ivy/angular-bottom-sheet.js",
+      "es2020": "./es2020/ivy/angular-bottom-sheet.js",
+      "default": "./es2020/ivy/angular-bottom-sheet.js"
+    },
+    "./button-toggle": {
+      "es2015": "./es2015/ivy/angular-button-toggle.js",
+      "es2020": "./es2020/ivy/angular-button-toggle.js",
+      "default": "./es2020/ivy/angular-button-toggle.js"
+    },
+    "./button": {
+      "es2015": "./es2015/ivy/angular-button.js",
+      "es2020": "./es2020/ivy/angular-button.js",
+      "default": "./es2020/ivy/angular-button.js"
+    },
+    "./card": {
+      "es2015": "./es2015/ivy/angular-card.js",
+      "es2020": "./es2020/ivy/angular-card.js",
+      "default": "./es2020/ivy/angular-card.js"
+    },
+    "./checkbox": {
+      "es2015": "./es2015/ivy/angular-checkbox.js",
+      "es2020": "./es2020/ivy/angular-checkbox.js",
+      "default": "./es2020/ivy/angular-checkbox.js"
+    },
+    "./chips": {
+      "es2015": "./es2015/ivy/angular-chips.js",
+      "es2020": "./es2020/ivy/angular-chips.js",
+      "default": "./es2020/ivy/angular-chips.js"
+    },
+    "./core": {
+      "es2015": "./es2015/ivy/angular-core.js",
+      "es2020": "./es2020/ivy/angular-core.js",
+      "default": "./es2020/ivy/angular-core.js"
+    },
+    "./datepicker": {
+      "es2015": "./es2015/ivy/angular-datepicker.js",
+      "es2020": "./es2020/ivy/angular-datepicker.js",
+      "default": "./es2020/ivy/angular-datepicker.js"
+    },
+    "./dialog": {
+      "es2015": "./es2015/ivy/angular-dialog.js",
+      "es2020": "./es2020/ivy/angular-dialog.js",
+      "default": "./es2020/ivy/angular-dialog.js"
+    },
+    "./divider": {
+      "es2015": "./es2015/ivy/angular-divider.js",
+      "es2020": "./es2020/ivy/angular-divider.js",
+      "default": "./es2020/ivy/angular-divider.js"
+    },
+    "./expansion": {
+      "es2015": "./es2015/ivy/angular-expansion.js",
+      "es2020": "./es2020/ivy/angular-expansion.js",
+      "default": "./es2020/ivy/angular-expansion.js"
+    },
+    "./form-field": {
+      "es2015": "./es2015/ivy/angular-form-field.js",
+      "es2020": "./es2020/ivy/angular-form-field.js",
+      "default": "./es2020/ivy/angular-form-field.js"
+    },
+    "./grid-list": {
+      "es2015": "./es2015/ivy/angular-grid-list.js",
+      "es2020": "./es2020/ivy/angular-grid-list.js",
+      "default": "./es2020/ivy/angular-grid-list.js"
+    },
+    "./icon": {
+      "es2015": "./es2015/ivy/angular-icon.js",
+      "es2020": "./es2020/ivy/angular-icon.js",
+      "default": "./es2020/ivy/angular-icon.js"
+    },
+    "./input": {
+      "es2015": "./es2015/ivy/angular-input.js",
+      "es2020": "./es2020/ivy/angular-input.js",
+      "default": "./es2020/ivy/angular-input.js"
+    },
+    "./list": {
+      "es2015": "./es2015/ivy/angular-list.js",
+      "es2020": "./es2020/ivy/angular-list.js",
+      "default": "./es2020/ivy/angular-list.js"
+    },
+    "./menu": {
+      "es2015": "./es2015/ivy/angular-menu.js",
+      "es2020": "./es2020/ivy/angular-menu.js",
+      "default": "./es2020/ivy/angular-menu.js"
+    },
+    "./paginator": {
+      "es2015": "./es2015/ivy/angular-paginator.js",
+      "es2020": "./es2020/ivy/angular-paginator.js",
+      "default": "./es2020/ivy/angular-paginator.js"
+    },
+    "./progress-bar": {
+      "es2015": "./es2015/ivy/angular-progress-bar.js",
+      "es2020": "./es2020/ivy/angular-progress-bar.js",
+      "default": "./es2020/ivy/angular-progress-bar.js"
+    },
+    "./progress-spinner": {
+      "es2015": "./es2015/ivy/angular-progress-spinner.js",
+      "es2020": "./es2020/ivy/angular-progress-spinner.js",
+      "default": "./es2020/ivy/angular-progress-spinner.js"
+    },
+    "./radio": {
+      "es2015": "./es2015/ivy/angular-radio.js",
+      "es2020": "./es2020/ivy/angular-radio.js",
+      "default": "./es2020/ivy/angular-radio.js"
+    },
+    "./select": {
+      "es2015": "./es2015/ivy/angular-select.js",
+      "es2020": "./es2020/ivy/angular-select.js",
+      "default": "./es2020/ivy/angular-select.js"
+    },
+    "./sidenav": {
+      "es2015": "./es2015/ivy/angular-sidenav.js",
+      "es2020": "./es2020/ivy/angular-sidenav.js",
+      "default": "./es2020/ivy/angular-sidenav.js"
+    },
+    "./slide-toggle": {
+      "es2015": "./es2015/ivy/angular-slide-toggle.js",
+      "es2020": "./es2020/ivy/angular-slide-toggle.js",
+      "default": "./es2020/ivy/angular-slide-toggle.js"
+    },
+    "./slider": {
+      "es2015": "./es2015/ivy/angular-slider.js",
+      "es2020": "./es2020/ivy/angular-slider.js",
+      "default": "./es2020/ivy/angular-slider.js"
+    },
+    "./snack-bar": {
+      "es2015": "./es2015/ivy/angular-snack-bar.js",
+      "es2020": "./es2020/ivy/angular-snack-bar.js",
+      "default": "./es2020/ivy/angular-snack-bar.js"
+    },
+    "./sort": {
+      "es2015": "./es2015/ivy/angular-sort.js",
+      "es2020": "./es2020/ivy/angular-sort.js",
+      "default": "./es2020/ivy/angular-sort.js"
+    },
+    "./stepper": {
+      "es2015": "./es2015/ivy/angular-stepper.js",
+      "es2020": "./es2020/ivy/angular-stepper.js",
+      "default": "./es2020/ivy/angular-stepper.js"
+    },
+    "./table": {
+      "es2015": "./es2015/ivy/angular-table.js",
+      "es2020": "./es2020/ivy/angular-table.js",
+      "default": "./es2020/ivy/angular-table.js"
+    },
+    "./tabs": {
+      "es2015": "./es2015/ivy/angular-tabs.js",
+      "es2020": "./es2020/ivy/angular-tabs.js",
+      "default": "./es2020/ivy/angular-tabs.js"
+    },
+    "./toolbar": {
+      "es2015": "./es2015/ivy/angular-toolbar.js",
+      "es2020": "./es2020/ivy/angular-toolbar.js",
+      "default": "./es2020/ivy/angular-toolbar.js"
+    },
+    "./tooltip": {
+      "es2015": "./es2015/ivy/angular-tooltip.js",
+      "es2020": "./es2020/ivy/angular-tooltip.js",
+      "default": "./es2020/ivy/angular-tooltip.js"
+    },
+    "./tree": {
+      "es2015": "./es2015/ivy/angular-tree.js",
+      "es2020": "./es2020/ivy/angular-tree.js",
+      "default": "./es2020/ivy/angular-tree.js"
+    }
+  },
   "scripts": {
     "test": "pnpm run build && concurrently -n w: 'pnpm:test:*'",
     "test:browser": "karma start karma.conf.cjs --single-run",
     "debug:test:browser": "karma start karma.conf.cjs",
-    "test:unit": "mocha -r chai/register-expect 'node-test/**/*.*'",
     "test:formatting": "prettier --check .",
-    "build": "rollup -c",
+    "build": "rimraf system es2015 es2020 && rollup -c",
     "format": "prettier --write .",
     "release": "release-it",
     "prepublishOnly": "pnpm run build && pinst --disable",
@@ -19,39 +198,44 @@
     "postpublish": "pinst --enable"
   },
   "files": [
-    "esm",
+    "es2015",
+    "es2020",
     "system"
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/esm-bundle/autopublish-template.git"
+    "url": "git+https://github.com/esm-bundle/angular__material.git"
   },
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/esm-bundle/autopublish-template/issues"
+    "url": "https://github.com/esm-bundle/angular__material/issues"
   },
   "publishConfig": {
     "access": "public"
   },
-  "homepage": "https://github.com/esm-bundle/autopublish-template#readme",
+  "homepage": "https://github.com/esm-bundle/angular__material#readme",
   "devDependencies": {
-    "@rollup/plugin-commonjs": "22.0.1",
-    "@rollup/plugin-node-resolve": "13.3.0",
-    "autopublish-template": "20.0.20",
-    "chai": "4.3.4",
+    "@angular/cdk": "14.0.4",
+    "@angular/compiler": "14.0.4",
+    "@angular/compiler-cli": "14.0.4",
+    "@angular/core": "14.0.4",
+    "@angular/material": "14.0.4",
+    "@rollup/plugin-babel": "5.3.1",
     "concurrently": "7.2.2",
     "husky": "8.0.1",
     "karma": "6.4.0",
     "karma-firefox-launcher": "2.1.2",
     "karma-jasmine": "5.1.0",
-    "mocha": "10.0.0",
     "pinst": "3.0.0",
     "prettier": "2.7.1",
     "pretty-quick": "3.1.3",
     "release-it": "15.1.1",
     "release-it-plugin-esm-bundle": "3.0.0",
+    "rimraf": "3.0.2",
     "rollup": "2.75.7",
-    "rollup-plugin-terser": "7.0.2"
+    "rollup-plugin-terser": "7.0.2",
+    "rxjs": "7.5.5",
+    "typescript": "4.7.4"
   }
 }
