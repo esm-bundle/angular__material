@@ -218,9 +218,9 @@
   "homepage": "https://github.com/esm-bundle/angular__material#readme",
   "devDependencies": {
     "@angular/cdk": "14.2.7",
-    "@angular/compiler": "14.2.10",
-    "@angular/compiler-cli": "14.2.10",
-    "@angular/core": "14.2.10",
+    "@angular/compiler": "14.2.11",
+    "@angular/compiler-cli": "14.2.11",
+    "@angular/core": "14.2.11",
     "@angular/material": "14.2.7",
     "@rollup/plugin-babel": "6.0.2",
     "concurrently": "7.5.0",
