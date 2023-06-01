@@ -223,7 +223,7 @@
     "@angular/core": "15.2.8",
     "@angular/material": "14.2.7",
     "@rollup/plugin-babel": "6.0.3",
-    "concurrently": "8.0.1",
+    "concurrently": "8.1.0",
     "husky": "8.0.3",
     "karma": "6.4.2",
     "karma-firefox-launcher": "2.1.2",
