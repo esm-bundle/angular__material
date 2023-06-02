@@ -1,6 +1,6 @@
 {
   "name": "@esm-bundle/angular__material",
-  "version": "14.2.7",
+  "version": "15.2.9",
   "description": "ESM and SystemJS bundles for @angular/material",
   "type": "module",
   "exports": {
