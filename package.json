@@ -94,6 +94,116 @@
       "es2020": "./es2020/ivy/angular-input.js",
       "default": "./es2020/ivy/angular-input.js"
     },
+    "./legacy-autocomplete": {
+      "es2015": "./es2015/ivy/angular-legacy-autocomplete.js",
+      "es2020": "./es2020/ivy/angular-legacy-autocomplete.js",
+      "default": "./es2020/ivy/angular-legacy-autocomplete.js"
+    },
+    "./legacy-button": {
+      "es2015": "./es2015/ivy/angular-legacy-button.js",
+      "es2020": "./es2020/ivy/angular-legacy-button.js",
+      "default": "./es2020/ivy/angular-legacy-button.js"
+    },
+    "./legacy-card": {
+      "es2015": "./es2015/ivy/angular-legacy-card.js",
+      "es2020": "./es2020/ivy/angular-legacy-card.js",
+      "default": "./es2020/ivy/angular-legacy-card.js"
+    },
+    "./legacy-checkbox": {
+      "es2015": "./es2015/ivy/angular-legacy-checkbox.js",
+      "es2020": "./es2020/ivy/angular-legacy-checkbox.js",
+      "default": "./es2020/ivy/angular-legacy-checkbox.js"
+    },
+    "./legacy-chips": {
+      "es2015": "./es2015/ivy/angular-legacy-chips.js",
+      "es2020": "./es2020/ivy/angular-legacy-chips.js",
+      "default": "./es2020/ivy/angular-legacy-chips.js"
+    },
+    "./legacy-core": {
+      "es2015": "./es2015/ivy/angular-legacy-core.js",
+      "es2020": "./es2020/ivy/angular-legacy-core.js",
+      "default": "./es2020/ivy/angular-legacy-core.js"
+    },
+    "./legacy-dialog": {
+      "es2015": "./es2015/ivy/angular-legacy-dialog.js",
+      "es2020": "./es2020/ivy/angular-legacy-dialog.js",
+      "default": "./es2020/ivy/angular-legacy-dialog.js"
+    },
+    "./legacy-form-field": {
+      "es2015": "./es2015/ivy/angular-legacy-form-field.js",
+      "es2020": "./es2020/ivy/angular-legacy-form-field.js",
+      "default": "./es2020/ivy/angular-legacy-form-field.js"
+    },
+    "./legacy-input": {
+      "es2015": "./es2015/ivy/angular-legacy-input.js",
+      "es2020": "./es2020/ivy/angular-legacy-input.js",
+      "default": "./es2020/ivy/angular-legacy-input.js"
+    },
+    "./legacy-list": {
+      "es2015": "./es2015/ivy/angular-legacy-list.js",
+      "es2020": "./es2020/ivy/angular-legacy-list.js",
+      "default": "./es2020/ivy/angular-legacy-list.js"
+    },
+    "./legacy-menu": {
+      "es2015": "./es2015/ivy/angular-legacy-menu.js",
+      "es2020": "./es2020/ivy/angular-legacy-menu.js",
+      "default": "./es2020/ivy/angular-legacy-menu.js"
+    },
+    "./legacy-paginator": {
+      "es2015": "./es2015/ivy/angular-legacy-paginator.js",
+      "es2020": "./es2020/ivy/angular-legacy-paginator.js",
+      "default": "./es2020/ivy/angular-legacy-paginator.js"
+    },
+    "./legacy-progress-bar": {
+      "es2015": "./es2015/ivy/angular-legacy-progress-bar.js",
+      "es2020": "./es2020/ivy/angular-legacy-progress-bar.js",
+      "default": "./es2020/ivy/angular-legacy-progress-bar.js"
+    },
+    "./legacy-progress-spinner": {
+      "es2015": "./es2015/ivy/angular-legacy-progress-spinner.js",
+      "es2020": "./es2020/ivy/angular-legacy-progress-spinner.js",
+      "default": "./es2020/ivy/angular-legacy-progress-spinner.js"
+    },
+    "./legacy-radio": {
+      "es2015": "./es2015/ivy/angular-legacy-radio.js",
+      "es2020": "./es2020/ivy/angular-legacy-radio.js",
+      "default": "./es2020/ivy/angular-legacy-radio.js"
+    },
+    "./legacy-select": {
+      "es2015": "./es2015/ivy/angular-legacy-select.js",
+      "es2020": "./es2020/ivy/angular-legacy-select.js",
+      "default": "./es2020/ivy/angular-legacy-select.js"
+    },
+    "./legacy-slide-toggle": {
+      "es2015": "./es2015/ivy/angular-legacy-slide-toggle.js",
+      "es2020": "./es2020/ivy/angular-legacy-slide-toggle.js",
+      "default": "./es2020/ivy/angular-legacy-slide-toggle.js"
+    },
+    "./legacy-slider": {
+      "es2015": "./es2015/ivy/angular-legacy-slider.js",
+      "es2020": "./es2020/ivy/angular-legacy-slider.js",
+      "default": "./es2020/ivy/angular-legacy-slider.js"
+    },
+    "./legacy-snack-bar": {
+      "es2015": "./es2015/ivy/angular-legacy-snack-bar.js",
+      "es2020": "./es2020/ivy/angular-legacy-snack-bar.js",
+      "default": "./es2020/ivy/angular-legacy-snack-bar.js"
+    },
+    "./legacy-table": {
+      "es2015": "./es2015/ivy/angular-legacy-table.js",
+      "es2020": "./es2020/ivy/angular-legacy-table.js",
+      "default": "./es2020/ivy/angular-legacy-table.js"
+    },
+    "./legacy-tabs": {
+      "es2015": "./es2015/ivy/angular-legacy-tabs.js",
+      "es2020": "./es2020/ivy/angular-legacy-tabs.js",
+      "default": "./es2020/ivy/angular-legacy-tabs.js"
+    },
+    "./legacy-tooltip": {
+      "es2015": "./es2015/ivy/angular-legacy-tooltip.js",
+      "es2020": "./es2020/ivy/angular-legacy-tooltip.js",
+      "default": "./es2020/ivy/angular-legacy-tooltip.js"
+    },
     "./list": {
       "es2015": "./es2015/ivy/angular-list.js",
       "es2020": "./es2020/ivy/angular-list.js",
@@ -217,11 +327,11 @@
   },
   "homepage": "https://github.com/esm-bundle/angular__material#readme",
   "devDependencies": {
-    "@angular/cdk": "14.2.7",
+    "@angular/cdk": "15.2.9",
     "@angular/compiler": "15.2.9",
     "@angular/compiler-cli": "15.2.9",
     "@angular/core": "15.2.9",
-    "@angular/material": "14.2.7",
+    "@angular/material": "15.2.9",
     "@rollup/plugin-babel": "6.0.3",
     "concurrently": "8.1.0",
     "husky": "8.0.3",
