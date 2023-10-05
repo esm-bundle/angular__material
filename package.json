@@ -332,7 +332,7 @@
     "@angular/compiler-cli": "16.2.8",
     "@angular/core": "16.2.8",
     "@angular/material": "15.2.9",
-    "@rollup/plugin-babel": "6.0.3",
+    "@rollup/plugin-babel": "6.0.4",
     "concurrently": "8.2.1",
     "husky": "8.0.3",
     "karma": "6.4.2",
