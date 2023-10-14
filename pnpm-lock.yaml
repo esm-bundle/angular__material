@@ -2,9 +2,9 @@ lockfileVersion: 5.4
 
 specifiers:
   '@angular/cdk': 15.2.9
-  '@angular/compiler': 16.2.8
-  '@angular/compiler-cli': 16.2.8
-  '@angular/core': 16.2.8
+  '@angular/compiler': 16.2.9
+  '@angular/compiler-cli': 16.2.9
+  '@angular/core': 16.2.9
   '@angular/material': 15.2.9
   '@rollup/plugin-babel': 6.0.4
   concurrently: 8.2.1
@@ -24,11 +24,11 @@ specifiers:
   typescript: 5.2.2
 
 devDependencies:
-  '@angular/cdk': 15.2.9_kpvbczjp5q3xb5ojdabyj7iz4m
-  '@angular/compiler': 16.2.8_@angular+core@16.2.8
-  '@angular/compiler-cli': 16.2.8_kbew7cm2ykkosa6fdw2hlba4jq
-  '@angular/core': 16.2.8_rxjs@7.8.1
-  '@angular/material': 15.2.9_ksghrptenfghjlflsjp2aicc6i
+  '@angular/cdk': 15.2.9_lg6ouezroff26ctlkgdzqjjtuq
+  '@angular/compiler': 16.2.9_@angular+core@16.2.9
+  '@angular/compiler-cli': 16.2.9_zpprrgp3al4vnbmzsekvz4lz5m
+  '@angular/core': 16.2.9_rxjs@7.8.1
+  '@angular/material': 15.2.9_js2cns3vqmeimkmduhtybyeiw4
   '@rollup/plugin-babel': 6.0.4_rollup@4.1.0
   concurrently: 8.2.1
   husky: 8.0.3
@@ -56,29 +56,29 @@ packages:
       '@jridgewell/trace-mapping': 0.3.18
     dev: true
 
-  /@angular/cdk/15.2.9_kpvbczjp5q3xb5ojdabyj7iz4m:
+  /@angular/cdk/15.2.9_lg6ouezroff26ctlkgdzqjjtuq:
     resolution: {integrity: sha512-koaM07N1AIQ5oHU27l0/FoQSSoYAwlAYwVZ4Di3bYrJsTBNCN2Xsby7wI8gZxdepMnV4Fe9si382BDBov+oO4Q==}
     peerDependencies:
       '@angular/common': ^15.0.0 || ^16.0.0
       '@angular/core': ^15.0.0 || ^16.0.0
       rxjs: ^6.5.3 || ^7.4.0
     dependencies:
-      '@angular/core': 16.2.8_rxjs@7.8.1
+      '@angular/core': 16.2.9_rxjs@7.8.1
       rxjs: 7.8.1
       tslib: 2.4.0
     optionalDependencies:
       parse5: 7.1.2
     dev: true
 
-  /@angular/compiler-cli/16.2.8_kbew7cm2ykkosa6fdw2hlba4jq:
-    resolution: {integrity: sha512-kKcfr8vbdB+MYDgyeZdxeoVbOpoGFmxOj4IEVnOQ2SPYexcnLEK38qect6LpHGIEG5bOQrkQqWmNnmHAEH4L1g==}
+  /@angular/compiler-cli/16.2.9_zpprrgp3al4vnbmzsekvz4lz5m:
+    resolution: {integrity: sha512-ecH2oOlijJdDqioD9IfgdqJGoRRHI6hAx5rwBxIaYk01ywj13KzvXWPrXbCIupeWtV/XUZUlbwf47nlmL5gxZg==}
     engines: {node: ^16.14.0 || >=18.10.0}
     hasBin: true
     peerDependencies:
-      '@angular/compiler': 16.2.8
+      '@angular/compiler': 16.2.9
       typescript: '>=4.9.3 <5.2'
     dependencies:
-      '@angular/compiler': 16.2.8_@angular+core@16.2.8
+      '@angular/compiler': 16.2.9_@angular+core@16.2.9
       '@babel/core': 7.22.5
       '@jridgewell/sourcemap-codec': 1.4.14
       chokidar: 3.5.3
@@ -92,21 +92,21 @@ packages:
       - supports-color
     dev: true
 
-  /@angular/compiler/16.2.8_@angular+core@16.2.8:
-    resolution: {integrity: sha512-xWdMAeBkYh8ESk9iBSYnp2qfbGPNReggtNJuUL9I7AFGkzkvEWndyQ+oTXzCM5gjj4nWB5A/AAYYDU54sDac2Q==}
+  /@angular/compiler/16.2.9_@angular+core@16.2.9:
+    resolution: {integrity: sha512-lh799pnbdvzTVShJHOY1JC6c1pwBsZC4UIgB3Itklo9dskGybQma/gP+lE6RhqM4FblNfaaBXGlCMUuY8HkmEQ==}
     engines: {node: ^16.14.0 || >=18.10.0}
     peerDependencies:
-      '@angular/core': 16.2.8
+      '@angular/core': 16.2.9
     peerDependenciesMeta:
       '@angular/core':
         optional: true
     dependencies:
-      '@angular/core': 16.2.8_rxjs@7.8.1
+      '@angular/core': 16.2.9_rxjs@7.8.1
       tslib: 2.4.0
     dev: true
 
-  /@angular/core/16.2.8_rxjs@7.8.1:
-    resolution: {integrity: sha512-v3kwZsjf7mKBGMky+UfxV3iwA1BFy1c3gmjyHSPSll9TPr2jkfwstoB2Cc+wmS2S9ezHFAMX++XXRymKVRQzQg==}
+  /@angular/core/16.2.9_rxjs@7.8.1:
+    resolution: {integrity: sha512-chvPX29ZBcMDuh7rLIgb0Cru6oJ/0FaqRzfOI3wT4W2F9W1HOlCtipovzmPYaUAmXBWfVP4EBO9TOWnpog0S0w==}
     engines: {node: ^16.14.0 || >=18.10.0}
     peerDependencies:
       rxjs: ^6.5.3 || ^7.4.0
@@ -116,7 +116,7 @@ packages:
       tslib: 2.4.0
     dev: true
 
-  /@angular/material/15.2.9_ksghrptenfghjlflsjp2aicc6i:
+  /@angular/material/15.2.9_js2cns3vqmeimkmduhtybyeiw4:
     resolution: {integrity: sha512-emuFF/7+91Jq+6kVCl3FiVoFLtAZoh+woFQWNuK8nhx0HmD4ckLFI8d9a6ERYR3zRuKhq5deSRE2kYsfpjrrsQ==}
     peerDependencies:
       '@angular/animations': ^15.0.0 || ^16.0.0
@@ -127,8 +127,8 @@ packages:
       '@angular/platform-browser': ^15.0.0 || ^16.0.0
       rxjs: ^6.5.3 || ^7.4.0
     dependencies:
-      '@angular/cdk': 15.2.9_kpvbczjp5q3xb5ojdabyj7iz4m
-      '@angular/core': 16.2.8_rxjs@7.8.1
+      '@angular/cdk': 15.2.9_lg6ouezroff26ctlkgdzqjjtuq
+      '@angular/core': 16.2.9_rxjs@7.8.1
       '@material/animation': 15.0.0-canary.684e33d25.0
       '@material/auto-init': 15.0.0-canary.684e33d25.0
       '@material/banner': 15.0.0-canary.684e33d25.0
