@@ -327,11 +327,11 @@
   },
   "homepage": "https://github.com/esm-bundle/angular__material#readme",
   "devDependencies": {
-    "@angular/cdk": "15.2.9",
+    "@angular/cdk": "17.3.1",
     "@angular/compiler": "17.0.9",
     "@angular/compiler-cli": "17.0.9",
     "@angular/core": "17.0.9",
-    "@angular/material": "15.2.9",
+    "@angular/material": "17.3.1",
     "@rollup/plugin-babel": "6.0.4",
     "concurrently": "8.2.2",
     "husky": "9.0.11",
