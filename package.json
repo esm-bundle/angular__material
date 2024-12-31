@@ -333,7 +333,7 @@
     "@angular/core": "19.0.5",
     "@angular/material": "15.2.9",
     "@rollup/plugin-babel": "6.0.4",
-    "concurrently": "9.1.1",
+    "concurrently": "9.1.2",
     "husky": "9.1.7",
     "karma": "6.4.4",
     "karma-firefox-launcher": "2.1.3",
