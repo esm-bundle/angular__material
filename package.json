@@ -5,294 +5,152 @@
   "type": "module",
   "exports": {
     ".": {
-      "es2015": "./es2015/ivy/angular-material.js",
-      "es2020": "./es2020/ivy/angular-material.js",
-      "default": "./es2020/ivy/angular-material.js"
+      "es2022": "./es2022/angular-material.js",
+      "default": "./es2022/angular-material.js"
     },
     "./autocomplete": {
-      "es2015": "./es2015/ivy/angular-autocomplete.js",
-      "es2020": "./es2020/ivy/angular-autocomplete.js",
-      "default": "./es2020/ivy/angular-autocomplete.js"
+      "es2022": "./es2022/angular-autocomplete.js",
+      "default": "./es2022/angular-autocomplete.js"
     },
     "./badge": {
-      "es2015": "./es2015/ivy/angular-badge.js",
-      "es2020": "./es2020/ivy/angular-badge.js",
-      "default": "./es2020/ivy/angular-badge.js"
+      "es2022": "./es2022/angular-badge.js",
+      "default": "./es2022/angular-badge.js"
     },
     "./bottom-sheet": {
-      "es2015": "./es2015/ivy/angular-bottom-sheet.js",
-      "es2020": "./es2020/ivy/angular-bottom-sheet.js",
-      "default": "./es2020/ivy/angular-bottom-sheet.js"
+      "es2022": "./es2022/angular-bottom-sheet.js",
+      "default": "./es2022/angular-bottom-sheet.js"
     },
     "./button-toggle": {
-      "es2015": "./es2015/ivy/angular-button-toggle.js",
-      "es2020": "./es2020/ivy/angular-button-toggle.js",
-      "default": "./es2020/ivy/angular-button-toggle.js"
+      "es2022": "./es2022/angular-button-toggle.js",
+      "default": "./es2022/angular-button-toggle.js"
     },
     "./button": {
-      "es2015": "./es2015/ivy/angular-button.js",
-      "es2020": "./es2020/ivy/angular-button.js",
-      "default": "./es2020/ivy/angular-button.js"
+      "es2022": "./es2022/angular-button.js",
+      "default": "./es2022/angular-button.js"
     },
     "./card": {
-      "es2015": "./es2015/ivy/angular-card.js",
-      "es2020": "./es2020/ivy/angular-card.js",
-      "default": "./es2020/ivy/angular-card.js"
+      "es2022": "./es2022/angular-card.js",
+      "default": "./es2022/angular-card.js"
     },
     "./checkbox": {
-      "es2015": "./es2015/ivy/angular-checkbox.js",
-      "es2020": "./es2020/ivy/angular-checkbox.js",
-      "default": "./es2020/ivy/angular-checkbox.js"
+      "es2022": "./es2022/angular-checkbox.js",
+      "default": "./es2022/angular-checkbox.js"
     },
     "./chips": {
-      "es2015": "./es2015/ivy/angular-chips.js",
-      "es2020": "./es2020/ivy/angular-chips.js",
-      "default": "./es2020/ivy/angular-chips.js"
+      "es2022": "./es2022/angular-chips.js",
+      "default": "./es2022/angular-chips.js"
     },
     "./core": {
-      "es2015": "./es2015/ivy/angular-core.js",
-      "es2020": "./es2020/ivy/angular-core.js",
-      "default": "./es2020/ivy/angular-core.js"
+      "es2022": "./es2022/angular-core.js",
+      "default": "./es2022/angular-core.js"
     },
     "./datepicker": {
-      "es2015": "./es2015/ivy/angular-datepicker.js",
-      "es2020": "./es2020/ivy/angular-datepicker.js",
-      "default": "./es2020/ivy/angular-datepicker.js"
+      "es2022": "./es2022/angular-datepicker.js",
+      "default": "./es2022/angular-datepicker.js"
     },
     "./dialog": {
-      "es2015": "./es2015/ivy/angular-dialog.js",
-      "es2020": "./es2020/ivy/angular-dialog.js",
-      "default": "./es2020/ivy/angular-dialog.js"
+      "es2022": "./es2022/angular-dialog.js",
+      "default": "./es2022/angular-dialog.js"
     },
     "./divider": {
-      "es2015": "./es2015/ivy/angular-divider.js",
-      "es2020": "./es2020/ivy/angular-divider.js",
-      "default": "./es2020/ivy/angular-divider.js"
+      "es2022": "./es2022/angular-divider.js",
+      "default": "./es2022/angular-divider.js"
     },
     "./expansion": {
-      "es2015": "./es2015/ivy/angular-expansion.js",
-      "es2020": "./es2020/ivy/angular-expansion.js",
-      "default": "./es2020/ivy/angular-expansion.js"
+      "es2022": "./es2022/angular-expansion.js",
+      "default": "./es2022/angular-expansion.js"
     },
     "./form-field": {
-      "es2015": "./es2015/ivy/angular-form-field.js",
-      "es2020": "./es2020/ivy/angular-form-field.js",
-      "default": "./es2020/ivy/angular-form-field.js"
+      "es2022": "./es2022/angular-form-field.js",
+      "default": "./es2022/angular-form-field.js"
     },
     "./grid-list": {
-      "es2015": "./es2015/ivy/angular-grid-list.js",
-      "es2020": "./es2020/ivy/angular-grid-list.js",
-      "default": "./es2020/ivy/angular-grid-list.js"
+      "es2022": "./es2022/angular-grid-list.js",
+      "default": "./es2022/angular-grid-list.js"
     },
     "./icon": {
-      "es2015": "./es2015/ivy/angular-icon.js",
-      "es2020": "./es2020/ivy/angular-icon.js",
-      "default": "./es2020/ivy/angular-icon.js"
+      "es2022": "./es2022/angular-icon.js",
+      "default": "./es2022/angular-icon.js"
     },
     "./input": {
-      "es2015": "./es2015/ivy/angular-input.js",
-      "es2020": "./es2020/ivy/angular-input.js",
-      "default": "./es2020/ivy/angular-input.js"
-    },
-    "./legacy-autocomplete": {
-      "es2015": "./es2015/ivy/angular-legacy-autocomplete.js",
-      "es2020": "./es2020/ivy/angular-legacy-autocomplete.js",
-      "default": "./es2020/ivy/angular-legacy-autocomplete.js"
-    },
-    "./legacy-button": {
-      "es2015": "./es2015/ivy/angular-legacy-button.js",
-      "es2020": "./es2020/ivy/angular-legacy-button.js",
-      "default": "./es2020/ivy/angular-legacy-button.js"
-    },
-    "./legacy-card": {
-      "es2015": "./es2015/ivy/angular-legacy-card.js",
-      "es2020": "./es2020/ivy/angular-legacy-card.js",
-      "default": "./es2020/ivy/angular-legacy-card.js"
-    },
-    "./legacy-checkbox": {
-      "es2015": "./es2015/ivy/angular-legacy-checkbox.js",
-      "es2020": "./es2020/ivy/angular-legacy-checkbox.js",
-      "default": "./es2020/ivy/angular-legacy-checkbox.js"
-    },
-    "./legacy-chips": {
-      "es2015": "./es2015/ivy/angular-legacy-chips.js",
-      "es2020": "./es2020/ivy/angular-legacy-chips.js",
-      "default": "./es2020/ivy/angular-legacy-chips.js"
-    },
-    "./legacy-core": {
-      "es2015": "./es2015/ivy/angular-legacy-core.js",
-      "es2020": "./es2020/ivy/angular-legacy-core.js",
-      "default": "./es2020/ivy/angular-legacy-core.js"
-    },
-    "./legacy-dialog": {
-      "es2015": "./es2015/ivy/angular-legacy-dialog.js",
-      "es2020": "./es2020/ivy/angular-legacy-dialog.js",
-      "default": "./es2020/ivy/angular-legacy-dialog.js"
-    },
-    "./legacy-form-field": {
-      "es2015": "./es2015/ivy/angular-legacy-form-field.js",
-      "es2020": "./es2020/ivy/angular-legacy-form-field.js",
-      "default": "./es2020/ivy/angular-legacy-form-field.js"
-    },
-    "./legacy-input": {
-      "es2015": "./es2015/ivy/angular-legacy-input.js",
-      "es2020": "./es2020/ivy/angular-legacy-input.js",
-      "default": "./es2020/ivy/angular-legacy-input.js"
-    },
-    "./legacy-list": {
-      "es2015": "./es2015/ivy/angular-legacy-list.js",
-      "es2020": "./es2020/ivy/angular-legacy-list.js",
-      "default": "./es2020/ivy/angular-legacy-list.js"
-    },
-    "./legacy-menu": {
-      "es2015": "./es2015/ivy/angular-legacy-menu.js",
-      "es2020": "./es2020/ivy/angular-legacy-menu.js",
-      "default": "./es2020/ivy/angular-legacy-menu.js"
-    },
-    "./legacy-paginator": {
-      "es2015": "./es2015/ivy/angular-legacy-paginator.js",
-      "es2020": "./es2020/ivy/angular-legacy-paginator.js",
-      "default": "./es2020/ivy/angular-legacy-paginator.js"
-    },
-    "./legacy-progress-bar": {
-      "es2015": "./es2015/ivy/angular-legacy-progress-bar.js",
-      "es2020": "./es2020/ivy/angular-legacy-progress-bar.js",
-      "default": "./es2020/ivy/angular-legacy-progress-bar.js"
-    },
-    "./legacy-progress-spinner": {
-      "es2015": "./es2015/ivy/angular-legacy-progress-spinner.js",
-      "es2020": "./es2020/ivy/angular-legacy-progress-spinner.js",
-      "default": "./es2020/ivy/angular-legacy-progress-spinner.js"
-    },
-    "./legacy-radio": {
-      "es2015": "./es2015/ivy/angular-legacy-radio.js",
-      "es2020": "./es2020/ivy/angular-legacy-radio.js",
-      "default": "./es2020/ivy/angular-legacy-radio.js"
-    },
-    "./legacy-select": {
-      "es2015": "./es2015/ivy/angular-legacy-select.js",
-      "es2020": "./es2020/ivy/angular-legacy-select.js",
-      "default": "./es2020/ivy/angular-legacy-select.js"
-    },
-    "./legacy-slide-toggle": {
-      "es2015": "./es2015/ivy/angular-legacy-slide-toggle.js",
-      "es2020": "./es2020/ivy/angular-legacy-slide-toggle.js",
-      "default": "./es2020/ivy/angular-legacy-slide-toggle.js"
-    },
-    "./legacy-slider": {
-      "es2015": "./es2015/ivy/angular-legacy-slider.js",
-      "es2020": "./es2020/ivy/angular-legacy-slider.js",
-      "default": "./es2020/ivy/angular-legacy-slider.js"
-    },
-    "./legacy-snack-bar": {
-      "es2015": "./es2015/ivy/angular-legacy-snack-bar.js",
-      "es2020": "./es2020/ivy/angular-legacy-snack-bar.js",
-      "default": "./es2020/ivy/angular-legacy-snack-bar.js"
-    },
-    "./legacy-table": {
-      "es2015": "./es2015/ivy/angular-legacy-table.js",
-      "es2020": "./es2020/ivy/angular-legacy-table.js",
-      "default": "./es2020/ivy/angular-legacy-table.js"
-    },
-    "./legacy-tabs": {
-      "es2015": "./es2015/ivy/angular-legacy-tabs.js",
-      "es2020": "./es2020/ivy/angular-legacy-tabs.js",
-      "default": "./es2020/ivy/angular-legacy-tabs.js"
-    },
-    "./legacy-tooltip": {
-      "es2015": "./es2015/ivy/angular-legacy-tooltip.js",
-      "es2020": "./es2020/ivy/angular-legacy-tooltip.js",
-      "default": "./es2020/ivy/angular-legacy-tooltip.js"
+      "es2022": "./es2022/angular-input.js",
+      "default": "./es2022/angular-input.js"
     },
     "./list": {
-      "es2015": "./es2015/ivy/angular-list.js",
-      "es2020": "./es2020/ivy/angular-list.js",
-      "default": "./es2020/ivy/angular-list.js"
+      "es2022": "./es2022/angular-list.js",
+      "default": "./es2022/angular-list.js"
     },
     "./menu": {
-      "es2015": "./es2015/ivy/angular-menu.js",
-      "es2020": "./es2020/ivy/angular-menu.js",
-      "default": "./es2020/ivy/angular-menu.js"
+      "es2022": "./es2022/angular-menu.js",
+      "default": "./es2022/angular-menu.js"
     },
     "./paginator": {
-      "es2015": "./es2015/ivy/angular-paginator.js",
-      "es2020": "./es2020/ivy/angular-paginator.js",
-      "default": "./es2020/ivy/angular-paginator.js"
+      "es2022": "./es2022/angular-paginator.js",
+      "default": "./es2022/angular-paginator.js"
     },
     "./progress-bar": {
-      "es2015": "./es2015/ivy/angular-progress-bar.js",
-      "es2020": "./es2020/ivy/angular-progress-bar.js",
-      "default": "./es2020/ivy/angular-progress-bar.js"
+      "es2022": "./es2022/angular-progress-bar.js",
+      "default": "./es2022/angular-progress-bar.js"
     },
     "./progress-spinner": {
-      "es2015": "./es2015/ivy/angular-progress-spinner.js",
-      "es2020": "./es2020/ivy/angular-progress-spinner.js",
-      "default": "./es2020/ivy/angular-progress-spinner.js"
+      "es2022": "./es2022/angular-progress-spinner.js",
+      "default": "./es2022/angular-progress-spinner.js"
     },
     "./radio": {
-      "es2015": "./es2015/ivy/angular-radio.js",
-      "es2020": "./es2020/ivy/angular-radio.js",
-      "default": "./es2020/ivy/angular-radio.js"
+      "es2022": "./es2022/angular-radio.js",
+      "default": "./es2022/angular-radio.js"
     },
     "./select": {
-      "es2015": "./es2015/ivy/angular-select.js",
-      "es2020": "./es2020/ivy/angular-select.js",
-      "default": "./es2020/ivy/angular-select.js"
+      "es2022": "./es2022/angular-select.js",
+      "default": "./es2022/angular-select.js"
     },
     "./sidenav": {
-      "es2015": "./es2015/ivy/angular-sidenav.js",
-      "es2020": "./es2020/ivy/angular-sidenav.js",
-      "default": "./es2020/ivy/angular-sidenav.js"
+      "es2022": "./es2022/angular-sidenav.js",
+      "default": "./es2022/angular-sidenav.js"
     },
     "./slide-toggle": {
-      "es2015": "./es2015/ivy/angular-slide-toggle.js",
-      "es2020": "./es2020/ivy/angular-slide-toggle.js",
-      "default": "./es2020/ivy/angular-slide-toggle.js"
+      "es2022": "./es2022/angular-slide-toggle.js",
+      "default": "./es2022/angular-slide-toggle.js"
     },
     "./slider": {
-      "es2015": "./es2015/ivy/angular-slider.js",
-      "es2020": "./es2020/ivy/angular-slider.js",
-      "default": "./es2020/ivy/angular-slider.js"
+      "es2022": "./es2022/angular-slider.js",
+      "default": "./es2022/angular-slider.js"
     },
     "./snack-bar": {
-      "es2015": "./es2015/ivy/angular-snack-bar.js",
-      "es2020": "./es2020/ivy/angular-snack-bar.js",
-      "default": "./es2020/ivy/angular-snack-bar.js"
+      "es2022": "./es2022/angular-snack-bar.js",
+      "default": "./es2022/angular-snack-bar.js"
     },
     "./sort": {
-      "es2015": "./es2015/ivy/angular-sort.js",
-      "es2020": "./es2020/ivy/angular-sort.js",
-      "default": "./es2020/ivy/angular-sort.js"
+      "es2022": "./es2022/angular-sort.js",
+      "default": "./es2022/angular-sort.js"
     },
     "./stepper": {
-      "es2015": "./es2015/ivy/angular-stepper.js",
-      "es2020": "./es2020/ivy/angular-stepper.js",
-      "default": "./es2020/ivy/angular-stepper.js"
+      "es2022": "./es2022/angular-stepper.js",
+      "default": "./es2022/angular-stepper.js"
     },
     "./table": {
-      "es2015": "./es2015/ivy/angular-table.js",
-      "es2020": "./es2020/ivy/angular-table.js",
-      "default": "./es2020/ivy/angular-table.js"
+      "es2022": "./es2022/angular-table.js",
+      "default": "./es2022/angular-table.js"
     },
     "./tabs": {
-      "es2015": "./es2015/ivy/angular-tabs.js",
-      "es2020": "./es2020/ivy/angular-tabs.js",
-      "default": "./es2020/ivy/angular-tabs.js"
+      "es2022": "./es2022/angular-tabs.js",
+      "default": "./es2022/angular-tabs.js"
+    },
+    "./timepicker": {
+      "es2022": "./es2022/angular-timepicker.js",
+      "default": "./es2022/angular-timepicker.js"
     },
     "./toolbar": {
-      "es2015": "./es2015/ivy/angular-toolbar.js",
-      "es2020": "./es2020/ivy/angular-toolbar.js",
-      "default": "./es2020/ivy/angular-toolbar.js"
+      "es2022": "./es2022/angular-toolbar.js",
+      "default": "./es2022/angular-toolbar.js"
     },
     "./tooltip": {
-      "es2015": "./es2015/ivy/angular-tooltip.js",
-      "es2020": "./es2020/ivy/angular-tooltip.js",
-      "default": "./es2020/ivy/angular-tooltip.js"
+      "es2022": "./es2022/angular-tooltip.js",
+      "default": "./es2022/angular-tooltip.js"
     },
     "./tree": {
-      "es2015": "./es2015/ivy/angular-tree.js",
-      "es2020": "./es2020/ivy/angular-tree.js",
-      "default": "./es2020/ivy/angular-tree.js"
+      "es2022": "./es2022/angular-tree.js",
+      "default": "./es2022/angular-tree.js"
     }
   },
   "scripts": {
@@ -301,7 +159,7 @@
     "test:browser": "karma start karma.conf.cjs --single-run",
     "debug:test:browser": "karma start karma.conf.cjs",
     "test:formatting": "prettier --check .",
-    "build": "rimraf system es2015 es2020 && rollup -c",
+    "build": "rimraf system es2022 && rollup -c",
     "format": "prettier --write .",
     "release": "release-it",
     "prepublishOnly": "pnpm run build && pinst --disable",
@@ -309,8 +167,7 @@
     "postpublish": "pinst --enable"
   },
   "files": [
-    "es2015",
-    "es2020",
+    "es2022",
     "system"
   ],
   "repository": {
@@ -327,11 +184,11 @@
   },
   "homepage": "https://github.com/esm-bundle/angular__material#readme",
   "devDependencies": {
-    "@angular/cdk": "15.2.9",
+    "@angular/cdk": "19.0.4",
     "@angular/compiler": "19.0.5",
     "@angular/compiler-cli": "19.0.5",
     "@angular/core": "19.0.5",
-    "@angular/material": "15.2.9",
+    "@angular/material": "19.0.4",
     "@rollup/plugin-babel": "6.0.4",
     "concurrently": "9.1.2",
     "husky": "9.1.7",
@@ -339,7 +196,7 @@
     "karma-firefox-launcher": "2.1.3",
     "karma-jasmine": "5.1.0",
     "pinst": "3.0.0",
-    "prettier": "2.8.8",
+    "prettier": "3.4.2",
     "pretty-quick": "4.0.0",
     "release-it": "18.0.0",
     "release-it-plugin-esm-bundle": "3.0.0",

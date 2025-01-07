@@ -166,6 +166,11 @@ describe("@esm-bundle/angular__material", () => {
       expectedImport: "MatTab",
     },
     {
+      packageName: "@angular/material/timepicker",
+      filename: "angular-timepicker",
+      expectedImport: "MatTimepicker",
+    },
+    {
       packageName: "@angular/material/toolbar",
       filename: "angular-toolbar",
       expectedImport: "MatToolbar",
@@ -182,19 +187,19 @@ describe("@esm-bundle/angular__material", () => {
     },
   ];
 
+  const esVersions = ["es2022"];
+
   packages.forEach(({ packageName, filename, expectedImport }) => {
     describe(packageName, () => {
-      ["es2015", "es2020"].forEach((ecma) => {
+      esVersions.forEach((ecma) => {
         it(`can load the System.register ${ecma} bundle`, async () => {
-          const m = await System.import(
-            `/base/system/${ecma}/ivy/${filename}.js`
-          );
+          const m = await System.import(`/base/system/${ecma}/${filename}.js`);
           expect(m[expectedImport]).toBeDefined();
         });
 
         it(`can load the System.register ${ecma} prod bundle`, async () => {
           const m = await System.import(
-            `/base/system/${ecma}/ivy/${filename}.min.js`
+            `/base/system/${ecma}/${filename}.min.js`,
           );
           expect(m[expectedImport]).toBeDefined();
         });
