@@ -1,5 +1,4 @@
 import fs from "fs";
-import url from "url";
 import path from "path";
 import { babel } from "@rollup/plugin-babel";
 import { terser } from "rollup-plugin-terser";
@@ -10,11 +9,11 @@ import {
   LogLevel,
 } from "@angular/compiler-cli";
 
-const __dirname = new url.URL(".", import.meta.url).pathname;
+const __dirname = import.meta.dirname;
 
 const materialPackages = fs
   .readdirSync(
-    path.resolve(__dirname, "node_modules/@angular/material/fesm2020")
+    path.resolve(__dirname, "node_modules/@angular/material/fesm2022"),
   )
   .filter((filename) => filename.endsWith(".mjs"))
   .map((filename) => filename.replace(".mjs", ""))
@@ -30,9 +29,9 @@ const materialPackages = fs
 const packageJson = JSON.parse(
   fs
     .readFileSync(
-      path.resolve(__dirname, "node_modules/@angular/material/package.json")
+      path.resolve(__dirname, "node_modules/@angular/material/package.json"),
     )
-    .toString()
+    .toString(),
 );
 
 /** File system used by the Angular linker plugin. */
@@ -51,17 +50,16 @@ const linkerPlugin = createEs2015LinkerPlugin({
 
 // Construct a list of compilation targets, the list will be the following:
 // [
-//  { ecma: '2015', filename: 'sort', angularPackage: '@angular/material/sort' },
-//  { ecma: '2020', filename: 'toolbar', angularPackage: '@angular/material/toolbar' },
+//  { ecma: '2022', filename: 'toolbar', angularPackage: '@angular/material/toolbar' },
 //  ...
 // ]
-const packages = ["2015", "2020"]
+const packages = ["2022"]
   .map((ecma) =>
     materialPackages.map(({ filename, materialPackage }) => ({
       ecma,
       filename,
       angularPackage: materialPackage,
-    }))
+    })),
   )
   .flat();
 
@@ -87,18 +85,18 @@ export default packages
   .flat();
 
 function createConfig({ ecma, prod, format, angularPackage, filename }) {
-  const dir = (format === "es" ? "." : format) + `/es${ecma}/ivy`;
+  const dir = (format === "es" ? "." : format) + `/es${ecma}`;
 
   return {
     input: path.join(
       __dirname,
-      `node_modules/@angular/material/fesm${ecma}/${filename}.mjs`
+      `node_modules/@angular/material/fesm${ecma}/${filename}.mjs`,
     ),
     output: {
       file: `${dir}/angular-${filename}.${prod ? "min." : ""}js`,
       format,
       sourcemap: true,
-      banner: `/* esm-bundle - ${angularPackage}@${packageJson.version} - Ivy - ${format} format - es${ecma} - Use of this source code is governed by an MIT-style license that can be found in the LICENSE file at https://angular.io/license */`,
+      banner: `/* esm-bundle - ${angularPackage}@${packageJson.version} - ${format} format - Use of this source code is governed by an MIT-style license that can be found in the LICENSE file at https://angular.io/license */`,
     },
     plugins: [
       babel({ plugins: [linkerPlugin] }),

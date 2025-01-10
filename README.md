@@ -12,25 +12,15 @@ A repo that tests automatic detection of upstream publishes and the publishing o
 
 ### @angular/material/autocomplete
 
-#### ES2015
+#### ES2022
 
-https://cdn.jsdelivr.net/npm/@esm-bundle/angular__material/system/es2015/ivy/angular-autocomplete.js
+https://cdn.jsdelivr.net/npm/@esm-bundle/angular__material/system/es2022/angular-autocomplete.js
 
-https://cdn.jsdelivr.net/npm/@esm-bundle/angular__material/system/es2015/ivy/angular-autocomplete.min.js
+https://cdn.jsdelivr.net/npm/@esm-bundle/angular__material/system/es2022/angular-autocomplete.min.js
 
-https://unpkg.com/@esm-bundle/angular__material/system/es2015/ivy/angular-autocomplete.js
+https://unpkg.com/@esm-bundle/angular__material/system/es2022/angular-autocomplete.js
 
-https://unpkg.com/@esm-bundle/angular__material/system/es2015/ivy/angular-autocomplete.min.js
-
-#### ES2020
-
-https://cdn.jsdelivr.net/npm/@esm-bundle/angular__material/system/es2020/ivy/angular-autocomplete.js
-
-https://cdn.jsdelivr.net/npm/@esm-bundle/angular__material/system/es2020/ivy/angular-autocomplete.min.js
-
-https://unpkg.com/@esm-bundle/angular__material/system/es2020/ivy/angular-autocomplete.js
-
-https://unpkg.com/@esm-bundle/angular__material/system/es2020/ivy/angular-autocomplete.min.js
+https://unpkg.com/@esm-bundle/angular__material/system/es2022/angular-autocomplete.min.js
 
 ## Other packages
 
