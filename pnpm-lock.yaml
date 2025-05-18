@@ -2,9 +2,9 @@ lockfileVersion: 5.4
 
 specifiers:
   '@angular/cdk': 15.2.9
-  '@angular/compiler': 19.2.10
-  '@angular/compiler-cli': 19.2.10
-  '@angular/core': 19.2.10
+  '@angular/compiler': 19.2.11
+  '@angular/compiler-cli': 19.2.11
+  '@angular/core': 19.2.11
   '@angular/material': 15.2.9
   '@rollup/plugin-babel': 6.0.4
   concurrently: 9.1.2
@@ -24,11 +24,11 @@ specifiers:
   typescript: 5.8.3
 
 devDependencies:
-  '@angular/cdk': 15.2.9_odef35sjdje7wybyertw7rchsi
-  '@angular/compiler': 19.2.10
-  '@angular/compiler-cli': 19.2.10_rryj4fzfkkj6hwmhkml4yoaqoe
-  '@angular/core': 19.2.10_rxjs@7.8.2
-  '@angular/material': 15.2.9_p37v3u7q76spvqaphlovdrvrtq
+  '@angular/cdk': 15.2.9_3jajuklrxi2mzoeyym5j7pbfv4
+  '@angular/compiler': 19.2.11
+  '@angular/compiler-cli': 19.2.11_lvwc3j3sf2uz6zwngb7c7qlf5u
+  '@angular/core': 19.2.11_rxjs@7.8.2
+  '@angular/material': 15.2.9_oie4avwi2xn4whq2mrzjf7ovce
   '@rollup/plugin-babel': 6.0.4_rollup@4.41.0
   concurrently: 9.1.2
   husky: 9.1.7
@@ -56,29 +56,29 @@ packages:
       '@jridgewell/trace-mapping': 0.3.25
     dev: true
 
-  /@angular/cdk/15.2.9_odef35sjdje7wybyertw7rchsi:
+  /@angular/cdk/15.2.9_3jajuklrxi2mzoeyym5j7pbfv4:
     resolution: {integrity: sha512-koaM07N1AIQ5oHU27l0/FoQSSoYAwlAYwVZ4Di3bYrJsTBNCN2Xsby7wI8gZxdepMnV4Fe9si382BDBov+oO4Q==}
     peerDependencies:
       '@angular/common': ^15.0.0 || ^16.0.0
       '@angular/core': ^15.0.0 || ^16.0.0
       rxjs: ^6.5.3 || ^7.4.0
     dependencies:
-      '@angular/core': 19.2.10_rxjs@7.8.2
+      '@angular/core': 19.2.11_rxjs@7.8.2
       rxjs: 7.8.2
       tslib: 2.4.0
     optionalDependencies:
       parse5: 7.1.2
     dev: true
 
-  /@angular/compiler-cli/19.2.10_rryj4fzfkkj6hwmhkml4yoaqoe:
-    resolution: {integrity: sha512-g+Zg87IbQSmoIVw4fnqBcz3csTaSWDNTabt4JAlNdcoIw88+WsyZVjxPBFFvezsDEd6eFvNdqVJdAUyLhieDYA==}
+  /@angular/compiler-cli/19.2.11_lvwc3j3sf2uz6zwngb7c7qlf5u:
+    resolution: {integrity: sha512-15aoOg+qj7Z3Uap1JKHMy51y12M09AOnseDBa0SYKidSx15XwZi8d01hv7sRaQJX/6Ie5cug9GiAbLKts6R33w==}
     engines: {node: ^18.19.1 || ^20.11.1 || >=22.0.0}
     hasBin: true
     peerDependencies:
-      '@angular/compiler': 19.2.10
+      '@angular/compiler': 19.2.11
       typescript: '>=5.5 <5.9'
     dependencies:
-      '@angular/compiler': 19.2.10
+      '@angular/compiler': 19.2.11
       '@babel/core': 7.26.9
       '@jridgewell/sourcemap-codec': 1.4.14
       chokidar: 4.0.3
@@ -92,15 +92,15 @@ packages:
       - supports-color
     dev: true
 
-  /@angular/compiler/19.2.10:
-    resolution: {integrity: sha512-XI4VVaTHIsvDu25b/hOqFBIub4RoEVqVrBYo1rKRF9NI+mxg2Wy30qyJ7rYGbF7qUPomC54pen0qQgw359YhMA==}
+  /@angular/compiler/19.2.11:
+    resolution: {integrity: sha512-/ZGFAEO2TyqkaE4neR8lGL9I2QeO2sRVFqulQv7Bu8zKTPStjcsFCwNkp+TNX8Oq/1rLcY9XWAOsUk1//AZd8Q==}
     engines: {node: ^18.19.1 || ^20.11.1 || >=22.0.0}
     dependencies:
       tslib: 2.8.1
     dev: true
 
-  /@angular/core/19.2.10_rxjs@7.8.2:
-    resolution: {integrity: sha512-9SQj5zz9VL4nD2dnqaS8nHxYWWQTPavacwG/e5I1wlctrUIGAvvl9uApxXanqlNVoezA0isUVzZGjaiQuu0hBQ==}
+  /@angular/core/19.2.11_rxjs@7.8.2:
+    resolution: {integrity: sha512-kmtJQB7B5F2V1JIzy1oBPS6WrRyedSYkuge+XoX1mCSFJDef8HRNd7GopnQ0Zaz0vOTGvCCkWvvaH/+7s2lmAQ==}
     engines: {node: ^18.19.1 || ^20.11.1 || >=22.0.0}
     peerDependencies:
       rxjs: ^6.5.3 || ^7.4.0
@@ -110,7 +110,7 @@ packages:
       tslib: 2.8.1
     dev: true
 
-  /@angular/material/15.2.9_p37v3u7q76spvqaphlovdrvrtq:
+  /@angular/material/15.2.9_oie4avwi2xn4whq2mrzjf7ovce:
     resolution: {integrity: sha512-emuFF/7+91Jq+6kVCl3FiVoFLtAZoh+woFQWNuK8nhx0HmD4ckLFI8d9a6ERYR3zRuKhq5deSRE2kYsfpjrrsQ==}
     peerDependencies:
       '@angular/animations': ^15.0.0 || ^16.0.0
@@ -121,8 +121,8 @@ packages:
       '@angular/platform-browser': ^15.0.0 || ^16.0.0
       rxjs: ^6.5.3 || ^7.4.0
     dependencies:
-      '@angular/cdk': 15.2.9_odef35sjdje7wybyertw7rchsi
-      '@angular/core': 19.2.10_rxjs@7.8.2
+      '@angular/cdk': 15.2.9_3jajuklrxi2mzoeyym5j7pbfv4
+      '@angular/core': 19.2.11_rxjs@7.8.2
       '@material/animation': 15.0.0-canary.684e33d25.0
       '@material/auto-init': 15.0.0-canary.684e33d25.0
       '@material/banner': 15.0.0-canary.684e33d25.0
