@@ -2,9 +2,9 @@ lockfileVersion: 5.4
 
 specifiers:
   '@angular/cdk': 15.2.9
-  '@angular/compiler': 20.0.2
-  '@angular/compiler-cli': 20.0.2
-  '@angular/core': 20.0.2
+  '@angular/compiler': 20.0.3
+  '@angular/compiler-cli': 20.0.3
+  '@angular/core': 20.0.3
   '@angular/material': 15.2.9
   '@rollup/plugin-babel': 6.0.4
   concurrently: 9.1.2
@@ -24,11 +24,11 @@ specifiers:
   typescript: 5.8.3
 
 devDependencies:
-  '@angular/cdk': 15.2.9_xgle3vnfaxiuf3wjepcncjvfbm
-  '@angular/compiler': 20.0.2
-  '@angular/compiler-cli': 20.0.2_xfyloelgzqytbvecnou55ssz4a
-  '@angular/core': 20.0.2_oy5gx2nzzebiyt3q675xwz4d3u
-  '@angular/material': 15.2.9_npzmkev7kyvfco2aqgwppkox3q
+  '@angular/cdk': 15.2.9_hfjgs23a22tpmb5jdroosvgh4u
+  '@angular/compiler': 20.0.3
+  '@angular/compiler-cli': 20.0.3_6y5icb232aycmf3x2xz7d6h72y
+  '@angular/core': 20.0.3_vtib6qftguxfdtiy24rvd4ranq
+  '@angular/material': 15.2.9_cddirssjza3yofynribdqy35gq
   '@rollup/plugin-babel': 6.0.4_rollup@4.43.0
   concurrently: 9.1.2
   husky: 9.1.7
@@ -56,32 +56,32 @@ packages:
       '@jridgewell/trace-mapping': 0.3.25
     dev: true
 
-  /@angular/cdk/15.2.9_xgle3vnfaxiuf3wjepcncjvfbm:
+  /@angular/cdk/15.2.9_hfjgs23a22tpmb5jdroosvgh4u:
     resolution: {integrity: sha512-koaM07N1AIQ5oHU27l0/FoQSSoYAwlAYwVZ4Di3bYrJsTBNCN2Xsby7wI8gZxdepMnV4Fe9si382BDBov+oO4Q==}
     peerDependencies:
       '@angular/common': ^15.0.0 || ^16.0.0
       '@angular/core': ^15.0.0 || ^16.0.0
       rxjs: ^6.5.3 || ^7.4.0
     dependencies:
-      '@angular/core': 20.0.2_oy5gx2nzzebiyt3q675xwz4d3u
+      '@angular/core': 20.0.3_vtib6qftguxfdtiy24rvd4ranq
       rxjs: 7.8.2
       tslib: 2.4.0
     optionalDependencies:
       parse5: 7.1.2
     dev: true
 
-  /@angular/compiler-cli/20.0.2_xfyloelgzqytbvecnou55ssz4a:
-    resolution: {integrity: sha512-kVKHS5ZRadTR+rRuBl3Dsccsv/jiHXdJJYlDQwQW87afd4RtAu75P3RsSd8jaUj+7P9O4Ve4vwCZVtgOh0yxbw==}
+  /@angular/compiler-cli/20.0.3_6y5icb232aycmf3x2xz7d6h72y:
+    resolution: {integrity: sha512-u+fYnx1sRrwL0fd8kaAD2LqJjfe/Zj7zyOv0A3Ue7r8jzdNsPU8MWr/QyBaWlqSpPEpR+kD3xmDvRT9ra9RTBA==}
     engines: {node: ^20.19.0 || ^22.12.0 || >=24.0.0}
     hasBin: true
     peerDependencies:
-      '@angular/compiler': 20.0.2
+      '@angular/compiler': 20.0.3
       typescript: '>=5.8 <5.9'
     peerDependenciesMeta:
       typescript:
         optional: true
     dependencies:
-      '@angular/compiler': 20.0.2
+      '@angular/compiler': 20.0.3
       '@babel/core': 7.27.4
       '@jridgewell/sourcemap-codec': 1.4.14
       chokidar: 4.0.3
@@ -95,18 +95,18 @@ packages:
       - supports-color
     dev: true
 
-  /@angular/compiler/20.0.2:
-    resolution: {integrity: sha512-BJYXGUZaY9awYvgt0w9TDq73A1+m8W5eMRn/krWeQcfWakwTgs27BSxmhfJhD45KrMrky5yxAvGgqSfMKrLeng==}
+  /@angular/compiler/20.0.3:
+    resolution: {integrity: sha512-CShPNvqqV5Cleyho8CKtcFlt7l2thHPUdXZPtKHH3Zf43KojvJbJksZLBz6ZbyoQdgxNMYSfbh4h0UbSGtPOzQ==}
     engines: {node: ^20.19.0 || ^22.12.0 || >=24.0.0}
     dependencies:
       tslib: 2.8.1
     dev: true
 
-  /@angular/core/20.0.2_oy5gx2nzzebiyt3q675xwz4d3u:
-    resolution: {integrity: sha512-z9L8WPrHTkfupHtpO6aW4KqcqigIhxcQwCaEMgXWc5WJkoiMJSfo/dk+cyiGjCfTkc5Y6DO6f6ERi0IWYWWbPA==}
+  /@angular/core/20.0.3_vtib6qftguxfdtiy24rvd4ranq:
+    resolution: {integrity: sha512-kB6w1bQgClfmkTbWJeD3vSLqX0e3uSaJD6KJ7XXT1IEaqUs4J+mKRKHQyxpJlpdUb7R+jDaHSM/vrVF15/L2rA==}
     engines: {node: ^20.19.0 || ^22.12.0 || >=24.0.0}
     peerDependencies:
-      '@angular/compiler': 20.0.2
+      '@angular/compiler': 20.0.3
       rxjs: ^6.5.3 || ^7.4.0
       zone.js: ~0.15.0
     peerDependenciesMeta:
@@ -115,12 +115,12 @@ packages:
       zone.js:
         optional: true
     dependencies:
-      '@angular/compiler': 20.0.2
+      '@angular/compiler': 20.0.3
       rxjs: 7.8.2
       tslib: 2.8.1
     dev: true
 
-  /@angular/material/15.2.9_npzmkev7kyvfco2aqgwppkox3q:
+  /@angular/material/15.2.9_cddirssjza3yofynribdqy35gq:
     resolution: {integrity: sha512-emuFF/7+91Jq+6kVCl3FiVoFLtAZoh+woFQWNuK8nhx0HmD4ckLFI8d9a6ERYR3zRuKhq5deSRE2kYsfpjrrsQ==}
     peerDependencies:
       '@angular/animations': ^15.0.0 || ^16.0.0
@@ -131,8 +131,8 @@ packages:
       '@angular/platform-browser': ^15.0.0 || ^16.0.0
       rxjs: ^6.5.3 || ^7.4.0
     dependencies:
-      '@angular/cdk': 15.2.9_xgle3vnfaxiuf3wjepcncjvfbm
-      '@angular/core': 20.0.2_oy5gx2nzzebiyt3q675xwz4d3u
+      '@angular/cdk': 15.2.9_hfjgs23a22tpmb5jdroosvgh4u
+      '@angular/core': 20.0.3_vtib6qftguxfdtiy24rvd4ranq
       '@material/animation': 15.0.0-canary.684e33d25.0
       '@material/auto-init': 15.0.0-canary.684e33d25.0
       '@material/banner': 15.0.0-canary.684e33d25.0
@@ -217,7 +217,7 @@ packages:
       '@babel/parser': 7.27.5
       '@babel/template': 7.27.2
       '@babel/traverse': 7.27.4
-      '@babel/types': 7.27.3
+      '@babel/types': 7.27.6
       convert-source-map: 2.0.0
       debug: 4.3.4
       gensync: 1.0.0-beta.2
@@ -232,7 +232,7 @@ packages:
     engines: {node: '>=6.9.0'}
     dependencies:
       '@babel/parser': 7.27.5
-      '@babel/types': 7.27.3
+      '@babel/types': 7.27.6
       '@jridgewell/gen-mapping': 0.3.5
       '@jridgewell/trace-mapping': 0.3.25
       jsesc: 3.0.2
@@ -261,7 +261,7 @@ packages:
     engines: {node: '>=6.9.0'}
     dependencies:
       '@babel/traverse': 7.27.4
-      '@babel/types': 7.27.3
+      '@babel/types': 7.27.6
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -318,7 +318,7 @@ packages:
     engines: {node: '>=6.0.0'}
     hasBin: true
     dependencies:
-      '@babel/types': 7.27.3
+      '@babel/types': 7.27.6
     dev: true
 
   /@babel/template/7.27.2:
@@ -327,7 +327,7 @@ packages:
     dependencies:
       '@babel/code-frame': 7.27.1
       '@babel/parser': 7.27.5
-      '@babel/types': 7.27.3
+      '@babel/types': 7.27.6
     dev: true
 
   /@babel/traverse/7.27.4:
@@ -338,7 +338,7 @@ packages:
       '@babel/generator': 7.27.3
       '@babel/parser': 7.27.5
       '@babel/template': 7.27.2
-      '@babel/types': 7.27.3
+      '@babel/types': 7.27.6
       debug: 4.3.4
       globals: 11.12.0
     transitivePeerDependencies:
@@ -352,14 +352,6 @@ packages:
       '@babel/helper-string-parser': 7.27.1
       '@babel/helper-validator-identifier': 7.27.1
       to-fast-properties: 2.0.0
-    dev: true
-
-  /@babel/types/7.27.3:
-    resolution: {integrity: sha512-Y1GkI4ktrtvmawoSq+4FCVHNryea6uR+qUQy0AGxLSsjCX0nVmkYQMBLHDkXZuo5hGx7eYdnIaslsdBFm7zbUw==}
-    engines: {node: '>=6.9.0'}
-    dependencies:
-      '@babel/helper-string-parser': 7.27.1
-      '@babel/helper-validator-identifier': 7.27.1
     dev: true
 
   /@babel/types/7.27.6:
