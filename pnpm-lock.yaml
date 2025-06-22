@@ -7,7 +7,7 @@ specifiers:
   '@angular/core': 20.0.4
   '@angular/material': 15.2.9
   '@rollup/plugin-babel': 6.0.4
-  concurrently: 9.1.2
+  concurrently: 9.2.0
   husky: 9.1.7
   karma: 6.4.4
   karma-firefox-launcher: 2.1.3
@@ -30,7 +30,7 @@ devDependencies:
   '@angular/core': 20.0.4_3nmkowcx2mimfzlc53umjact2i
   '@angular/material': 15.2.9_efwui7jpfuk2ydx4ejhav4o55q
   '@rollup/plugin-babel': 6.0.4_rollup@4.44.0
-  concurrently: 9.1.2
+  concurrently: 9.2.0
   husky: 9.1.7
   karma: 6.4.4
   karma-firefox-launcher: 2.1.3
@@ -1946,8 +1946,8 @@ packages:
     resolution: {integrity: sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==}
     dev: true
 
-  /concurrently/9.1.2:
-    resolution: {integrity: sha512-H9MWcoPsYddwbOGM6difjVwVZHl63nwMEwDJG/L7VGtuaJhb12h2caPG2tVPWs7emuYix252iGfqOyrz1GczTQ==}
+  /concurrently/9.2.0:
+    resolution: {integrity: sha512-IsB/fiXTupmagMW4MNp2lx2cdSN2FfZq78vF90LBB+zZHArbIQZjQtzXCiXnvTxCZSvXanTqFLWBjw2UkLx1SQ==}
     engines: {node: '>=18'}
     hasBin: true
     dependencies:
