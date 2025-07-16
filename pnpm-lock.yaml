@@ -2,9 +2,9 @@ lockfileVersion: 5.4
 
 specifiers:
   '@angular/cdk': 15.2.9
-  '@angular/compiler': 20.1.0
-  '@angular/compiler-cli': 20.1.0
-  '@angular/core': 20.1.0
+  '@angular/compiler': 20.1.1
+  '@angular/compiler-cli': 20.1.1
+  '@angular/core': 20.1.1
   '@angular/material': 15.2.9
   '@rollup/plugin-babel': 6.0.4
   concurrently: 9.2.0
@@ -24,11 +24,11 @@ specifiers:
   typescript: 5.8.3
 
 devDependencies:
-  '@angular/cdk': 15.2.9_tdq6zb5x626lxhksxixoz3qwha
-  '@angular/compiler': 20.1.0
-  '@angular/compiler-cli': 20.1.0_prmvh5gh7vp6udhwme26qj5ej4
-  '@angular/core': 20.1.0_6oxbiwtrpa5eolmaje4gdi2unq
-  '@angular/material': 15.2.9_si4jqkxlybim5so5tuxwwtgzom
+  '@angular/cdk': 15.2.9_kefj65kogj2qho5r7rl7nntc7e
+  '@angular/compiler': 20.1.1
+  '@angular/compiler-cli': 20.1.1_j4kf3zzw4ipzd4lqt6h2mqrdwy
+  '@angular/core': 20.1.1_rc64boxff762vpyyrshmbgb6vm
+  '@angular/material': 15.2.9_5tdqhscdreebvubmacve7qx5aa
   '@rollup/plugin-babel': 6.0.4_rollup@4.45.1
   concurrently: 9.2.0
   husky: 9.1.7
@@ -53,37 +53,37 @@ packages:
     engines: {node: '>=6.0.0'}
     dependencies:
       '@jridgewell/gen-mapping': 0.1.1
-      '@jridgewell/trace-mapping': 0.3.25
+      '@jridgewell/trace-mapping': 0.3.29
     dev: true
 
-  /@angular/cdk/15.2.9_tdq6zb5x626lxhksxixoz3qwha:
+  /@angular/cdk/15.2.9_kefj65kogj2qho5r7rl7nntc7e:
     resolution: {integrity: sha512-koaM07N1AIQ5oHU27l0/FoQSSoYAwlAYwVZ4Di3bYrJsTBNCN2Xsby7wI8gZxdepMnV4Fe9si382BDBov+oO4Q==}
     peerDependencies:
       '@angular/common': ^15.0.0 || ^16.0.0
       '@angular/core': ^15.0.0 || ^16.0.0
       rxjs: ^6.5.3 || ^7.4.0
     dependencies:
-      '@angular/core': 20.1.0_6oxbiwtrpa5eolmaje4gdi2unq
+      '@angular/core': 20.1.1_rc64boxff762vpyyrshmbgb6vm
       rxjs: 7.8.2
       tslib: 2.4.0
     optionalDependencies:
       parse5: 7.1.2
     dev: true
 
-  /@angular/compiler-cli/20.1.0_prmvh5gh7vp6udhwme26qj5ej4:
-    resolution: {integrity: sha512-ajbCmvYYFxeXRdKSfdHjp62MZ2lCMUS0UzswBDAbT9sPd/ThppbvLXLsMBj8SlwaXSSBeTAa1oSHEO1MeuVvGQ==}
+  /@angular/compiler-cli/20.1.1_j4kf3zzw4ipzd4lqt6h2mqrdwy:
+    resolution: {integrity: sha512-88W5wzC9Kb8Etos1sZNmiDchxAdQVNwm+4RZl4fQQT+PXO/YdThkUj0IQlkgTMyAONntQcMzU4VeRr9EN5g1kQ==}
     engines: {node: ^20.19.0 || ^22.12.0 || >=24.0.0}
     hasBin: true
     peerDependencies:
-      '@angular/compiler': 20.1.0
+      '@angular/compiler': 20.1.1
       typescript: '>=5.8 <5.9'
     peerDependenciesMeta:
       typescript:
         optional: true
     dependencies:
-      '@angular/compiler': 20.1.0
+      '@angular/compiler': 20.1.1
       '@babel/core': 7.28.0
-      '@jridgewell/sourcemap-codec': 1.4.14
+      '@jridgewell/sourcemap-codec': 1.5.4
       chokidar: 4.0.3
       convert-source-map: 1.8.0
       reflect-metadata: 0.2.2
@@ -95,18 +95,18 @@ packages:
       - supports-color
     dev: true
 
-  /@angular/compiler/20.1.0:
-    resolution: {integrity: sha512-sM8H3dJotIDDmI1u8qGuAn16XVfR7A4+/5s5cKLI/osnnIjafi5HHqAf76R5IlGoIv0ZHVQIYaJ/Qdvfyvdhfg==}
+  /@angular/compiler/20.1.1:
+    resolution: {integrity: sha512-w5Uf8gBiD4PWOHWq9c0YeYs5HQaOXqNK9dgKdeY10XNQ2bAzdROLupKjJ7fj5pil3wP/cYdaQh9f4t3URz7I/g==}
     engines: {node: ^20.19.0 || ^22.12.0 || >=24.0.0}
     dependencies:
       tslib: 2.8.1
     dev: true
 
-  /@angular/core/20.1.0_6oxbiwtrpa5eolmaje4gdi2unq:
-    resolution: {integrity: sha512-/dJooZi+OAACkjWgGMPrOOGikdtlTJXwdeXPJTgZSUD5L8oQMbhZFG0XW/1Hldvsti87wPjZPz67ivB7zR86VA==}
+  /@angular/core/20.1.1_rc64boxff762vpyyrshmbgb6vm:
+    resolution: {integrity: sha512-7zzULRROtejS7AlLqG7fpzlebLd+FoE1eV3QiVD9GOkg+KzuUUbX7WFWmY8HkvS7ye6mSQEWfv4+yYa3AyA9SA==}
     engines: {node: ^20.19.0 || ^22.12.0 || >=24.0.0}
     peerDependencies:
-      '@angular/compiler': 20.1.0
+      '@angular/compiler': 20.1.1
       rxjs: ^6.5.3 || ^7.4.0
       zone.js: ~0.15.0
     peerDependenciesMeta:
@@ -115,12 +115,12 @@ packages:
       zone.js:
         optional: true
     dependencies:
-      '@angular/compiler': 20.1.0
+      '@angular/compiler': 20.1.1
       rxjs: 7.8.2
       tslib: 2.8.1
     dev: true
 
-  /@angular/material/15.2.9_si4jqkxlybim5so5tuxwwtgzom:
+  /@angular/material/15.2.9_5tdqhscdreebvubmacve7qx5aa:
     resolution: {integrity: sha512-emuFF/7+91Jq+6kVCl3FiVoFLtAZoh+woFQWNuK8nhx0HmD4ckLFI8d9a6ERYR3zRuKhq5deSRE2kYsfpjrrsQ==}
     peerDependencies:
       '@angular/animations': ^15.0.0 || ^16.0.0
@@ -131,8 +131,8 @@ packages:
       '@angular/platform-browser': ^15.0.0 || ^16.0.0
       rxjs: ^6.5.3 || ^7.4.0
     dependencies:
-      '@angular/cdk': 15.2.9_tdq6zb5x626lxhksxixoz3qwha
-      '@angular/core': 20.1.0_6oxbiwtrpa5eolmaje4gdi2unq
+      '@angular/cdk': 15.2.9_kefj65kogj2qho5r7rl7nntc7e
+      '@angular/core': 20.1.1_rc64boxff762vpyyrshmbgb6vm
       '@material/animation': 15.0.0-canary.684e33d25.0
       '@material/auto-init': 15.0.0-canary.684e33d25.0
       '@material/banner': 15.0.0-canary.684e33d25.0
@@ -586,7 +586,7 @@ packages:
     engines: {node: '>=6.0.0'}
     dependencies:
       '@jridgewell/set-array': 1.2.1
-      '@jridgewell/sourcemap-codec': 1.4.14
+      '@jridgewell/sourcemap-codec': 1.5.4
     dev: true
 
   /@jridgewell/gen-mapping/0.3.12:
@@ -606,26 +606,15 @@ packages:
     engines: {node: '>=6.0.0'}
     dev: true
 
-  /@jridgewell/sourcemap-codec/1.4.14:
-    resolution: {integrity: sha512-XPSJHWmi394fuUuzDnGz1wiKqWfo1yXecHQMRf2l6hztTO+nPru658AyDngaBe7isIxEkRsPR3FZh+s7iVa4Uw==}
-    dev: true
-
   /@jridgewell/sourcemap-codec/1.5.4:
     resolution: {integrity: sha512-VT2+G1VQs/9oz078bLrYbecdZKs912zQlkelYpuf+SXF+QvZDYJlbx/LSx+meSAwdDFnF8FVXW92AVjjkVmgFw==}
-    dev: true
-
-  /@jridgewell/trace-mapping/0.3.25:
-    resolution: {integrity: sha512-vNk6aEwybGtawWmy/PzwnGDOjCkLWSD2wqvjGGAgOAwCGWySYXfYoxt00IJkTF+8Lb57DwOb3Aa0o9CApepiYQ==}
-    dependencies:
-      '@jridgewell/resolve-uri': 3.1.0
-      '@jridgewell/sourcemap-codec': 1.4.14
     dev: true
 
   /@jridgewell/trace-mapping/0.3.29:
     resolution: {integrity: sha512-uw6guiW/gcAGPDhLmd77/6lW8QLeiV5RUTsAX46Db6oLhGaVj4lhnPwb184s1bkc8kdVg/+h988dro8GRDpmYQ==}
     dependencies:
       '@jridgewell/resolve-uri': 3.1.0
-      '@jridgewell/sourcemap-codec': 1.4.14
+      '@jridgewell/sourcemap-codec': 1.5.4
     dev: true
 
   /@material/animation/15.0.0-canary.684e33d25.0:
