@@ -7,7 +7,7 @@ specifiers:
   '@angular/core': 20.1.6
   '@angular/material': 15.2.9
   '@rollup/plugin-babel': 6.0.4
-  concurrently: 9.2.0
+  concurrently: 9.2.4
   husky: 9.1.7
   karma: 6.4.4
   karma-firefox-launcher: 2.1.3
@@ -30,7 +30,7 @@ devDependencies:
   '@angular/core': 20.1.6_hwkri3pu52rymip5v7zuqifccq
   '@angular/material': 15.2.9_ua6sx3kbzfgfk3jomsa7slifkq
   '@rollup/plugin-babel': 6.0.4_rollup@4.46.2
-  concurrently: 9.2.0
+  concurrently: 9.2.4
   husky: 9.1.7
   karma: 6.4.4
   karma-firefox-launcher: 2.1.3
@@ -2013,15 +2013,14 @@ packages:
     resolution: {integrity: sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==}
     dev: true
 
-  /concurrently/9.2.0:
-    resolution: {integrity: sha512-IsB/fiXTupmagMW4MNp2lx2cdSN2FfZq78vF90LBB+zZHArbIQZjQtzXCiXnvTxCZSvXanTqFLWBjw2UkLx1SQ==}
+  /concurrently/9.2.4:
+    resolution: {integrity: sha512-TZ0CEhyzvFjgtAvHTusDMgj7wNdihCh7LLLrzdUOXIhdlnL2JBBGA9eJxR24rtqgmdjh3OA3hrN1rCHj6HM8qA==}
     engines: {node: '>=18'}
     hasBin: true
     dependencies:
       chalk: 4.1.2
-      lodash: 4.17.21
       rxjs: 7.8.2
-      shell-quote: 1.8.1
+      shell-quote: 1.9.0
       supports-color: 8.1.1
       tree-kill: 1.2.2
       yargs: 17.7.2
@@ -3577,8 +3576,9 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /shell-quote/1.8.1:
-    resolution: {integrity: sha512-6j1W9l1iAs/4xYBI1SYOVZyFcCis9b4KCLQ8fgAGG07QvzaRLVVRQvAy85yNmmZSjYjg4MWh4gNvlPujU/5LpA==}
+  /shell-quote/1.9.0:
+    resolution: {integrity: sha512-Iov+JwFv/2HcTpcwNMKd8+IWNb8tboQJNQTkAY/LLVK7gGH9jy+LGkVqPxfekHl+yMmiqXszdGWXgkfml7hjqA==}
+    engines: {node: '>= 0.4'}
     dev: true
 
   /signal-exit/4.1.0:
